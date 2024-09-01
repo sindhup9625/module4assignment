@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face{
+    font-family: bookman old style bold italic;
+   src: url(../fonts/Bookman\ Old\ Style\ Bold\ Italic.ttf);
+
+}
+body,
+h1,
+
+input{
+    font-family: bookman old style bold italic, "italic";
+}
+
+
+
+
+    .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotate(30deg);
+}
+
+.center1
+{  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotate(60deg);
+
+}
+.center2
+{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotate(30deg);
+
+
+}
+.center3
+{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotate(30deg);
+
+
+}
+.center4
+{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotate(60deg);
+
+
+}
+.main
+{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotateY(30deg );
+
+}
+.main1{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    transform: rotateY(180deg );
+
+}
+.multiple-colomn
+{
+    column-count: 6;
+    column-width: 40px;
+}
